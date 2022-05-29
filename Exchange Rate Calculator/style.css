@@ -1,0 +1,51 @@
+* {
+
+box-sizing: border-box;
+
+}
+
+body {
+
+  background-color:#1FAAC3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.btn{
+
+cursor: pointer;
+border-radius: 10px;
+padding: 5px 12px;
+
+}
+
+.swap-rate-container{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.rate{
+
+
+  color: black;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+select:focus,input:focus,button:focus{
+
+outline: 0;
+
+}
+
+
+
